@@ -17,9 +17,6 @@ DerivedData/
 # Swift Package Manager
 .build/
 
-# App icons
-*.appiconset/
-
 # Local configuration files
 *.xcconfig
 
