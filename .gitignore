@@ -1,0 +1,28 @@
+# Xcode
+.DS_Store
+*.xcuserstate
+*.xcworkspace/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Build files
+/build/
+DerivedData/
+
+# Auto-generated schemes
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+.build/
+
+# App icons
+*.appiconset/
+
+# Local configuration files
+*.xcconfig
+
+# Other
+.idea/
+.vscode/

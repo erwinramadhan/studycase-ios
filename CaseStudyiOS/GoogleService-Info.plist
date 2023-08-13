@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1091979484210-hcdpq2u841llom2h5a33sd37f7h1rr56.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1091979484210-hcdpq2u841llom2h5a33sd37f7h1rr56</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCK-9QLQdUKX9e76s4iAvyPk5pKE4jur3A</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1091979484210</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>erwin.CaseStudyiOS</string>
+	<key>PROJECT_ID</key>
+	<string>casestudyios</string>
+	<key>STORAGE_BUCKET</key>
+	<string>casestudyios.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1091979484210:ios:ecfba3362cea92a3d4702b</string>
+</dict>
+</plist>
