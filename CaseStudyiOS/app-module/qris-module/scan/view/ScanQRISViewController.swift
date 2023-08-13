@@ -17,7 +17,7 @@ class ScanQRISViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        byPassing()
+        
         view.backgroundColor = .white
         navigationController?.navigationBar.backgroundColor = .white
         navigationController?.navigationBar.tintColor =  UIColor(named: "Black800")
@@ -52,17 +52,6 @@ class ScanQRISViewController: UIViewController {
         }
     }
     
-    func byPassing() {
-        let qrisData = QRISData(
-            bankName: "BNI",
-            transactionId: "ID12345678",
-            merchantName: "MERCHANT MOCK TEST",
-            payAmount: 50000
-        )
-        
-        let detailPaymentQRISVC = DetailPaymentQRISRouter.createModule(qrisData: qrisData)
-        navigationController?.pushViewController(detailPaymentQRISVC, animated: true)
-    }
 }
 
 extension ScanQRISViewController: AVCaptureMetadataOutputObjectsDelegate {
