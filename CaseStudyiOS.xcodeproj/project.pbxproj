@@ -10,6 +10,7 @@
 		1607F5ED219842C1A6B0392F /* Pods_CaseStudyiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED60AD495A17AB460BF3E53 /* Pods_CaseStudyiOSTests.framework */; };
 		97395C2A60900FDFFFC6523E /* Pods_CaseStudyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A208BF2D9CF96419CF868D /* Pods_CaseStudyiOS.framework */; };
 		B51852EF968E190D9000E618 /* Pods_CaseStudyiOS_CaseStudyiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F4B4B9C0F45F8FE37CCAE4 /* Pods_CaseStudyiOS_CaseStudyiOSUITests.framework */; };
+		FA0C44FE2A8C68F7007B8F31 /* PromoPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C44FD2A8C68F7007B8F31 /* PromoPresenterTests.swift */; };
 		FA2C879D2A847E310047B398 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA2C879C2A847E310047B398 /* GoogleService-Info.plist */; };
 		FA2C879E2A847E310047B398 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA2C879C2A847E310047B398 /* GoogleService-Info.plist */; };
 		FA2C879F2A847E310047B398 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA2C879C2A847E310047B398 /* GoogleService-Info.plist */; };
@@ -105,6 +106,7 @@
 		E1FDF0E05B1E54052EFB50D5 /* Pods-CaseStudyiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaseStudyiOSTests.debug.xcconfig"; path = "Target Support Files/Pods-CaseStudyiOSTests/Pods-CaseStudyiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E476F795E3057890AE87E565 /* Pods-CaseStudyiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaseStudyiOSTests.release.xcconfig"; path = "Target Support Files/Pods-CaseStudyiOSTests/Pods-CaseStudyiOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		EA9C8411148AC440429A0C42 /* Pods-CaseStudyiOS-CaseStudyiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaseStudyiOS-CaseStudyiOSUITests.release.xcconfig"; path = "Target Support Files/Pods-CaseStudyiOS-CaseStudyiOSUITests/Pods-CaseStudyiOS-CaseStudyiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FA0C44FD2A8C68F7007B8F31 /* PromoPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoPresenterTests.swift; sourceTree = "<group>"; };
 		FA2C879C2A847E310047B398 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "CaseStudyiOS/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FA2C87A02A850A020047B398 /* PromoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCell.swift; sourceTree = "<group>"; };
 		FA2C87AC2A85D57E0047B398 /* DetailPromoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPromoViewController.swift; sourceTree = "<group>"; };
@@ -837,6 +839,7 @@
 			isa = PBXGroup;
 			children = (
 				FA649BE52A826A9F00503159 /* CaseStudyiOSTests.swift */,
+				FA0C44FD2A8C68F7007B8F31 /* PromoPresenterTests.swift */,
 			);
 			path = CaseStudyiOSTests;
 			sourceTree = "<group>";
@@ -1184,6 +1187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA0C44FE2A8C68F7007B8F31 /* PromoPresenterTests.swift in Sources */,
 				FA649BE62A826A9F00503159 /* CaseStudyiOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
